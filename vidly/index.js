@@ -11,7 +11,7 @@ mongoose.connect('mongodb://localhost/vidly')
 
 app.use(express.json()); //req.body
 app.use('/api/genres/', genres);
-app.use('/api/customers', customers);
+app.use('/api/customers/', customers);
 
 // PORT
 const port = process.env.PORT || 3000
