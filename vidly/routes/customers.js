@@ -3,7 +3,7 @@ const router = express.Router();
 const {Customer, validate} = require('../models/customer');
 const mongoose = require('mongoose');
 
-router.get('/', async (req, res) => {
+  router.get('/', async (req, res) => {
     const customers = await Customer.find().sort('name');
     res.send(customers);
   });

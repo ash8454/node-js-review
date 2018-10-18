@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ash8454/node-js-review/issues"
   },
-  "homepage": "https://github.com/ash8454/node-js-review#readme"
+  "homepage": "https://github.com/ash8454/node-js-review#readme",
+  "dependencies": {
+    "config": "^2.0.1"
+  }
 }
